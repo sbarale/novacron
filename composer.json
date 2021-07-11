@@ -44,7 +44,7 @@
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
-  "repositories": {
+  "repositories": [
     "remote": {
       "type": "composer",
       "url": "https://nova.laravel.com"
@@ -53,5 +53,5 @@
             "type": "vcs",
             "url": "git@github.com:sbarale/laravel-totem.git"
         }
-  }
+  ]
 }
