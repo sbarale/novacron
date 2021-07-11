@@ -16,7 +16,7 @@
                 resourceName: 'tasks'
             }
         }" class="text-white ml-8 no-underline dim">
-            Tasks
+            Schedules
         </router-link>
     </li>
 </ul>

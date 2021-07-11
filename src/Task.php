@@ -2,6 +2,7 @@
 
 namespace Studio\Novacron;
 
+use KossShtukert\LaravelNovaSelect2\Select2;
 use function is_null;
 use Laravel\Nova\Panel;
 use Studio\Totem\Totem;
@@ -67,7 +68,7 @@ class Task extends Resource
                 ->sortable()
                 ->rules(['required']),
 
-            Select::make('Command')
+            Select2::make('Command')
                 ->help('Select an artisan command to schedule')
                 ->hideFromIndex()
                 ->options(Totem::getCommands()->map(function (Command $command) {
