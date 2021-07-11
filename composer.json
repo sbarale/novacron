@@ -45,7 +45,7 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "repositories": [
-    "remote": {
+ {
       "type": "composer",
       "url": "https://nova.laravel.com"
     },
